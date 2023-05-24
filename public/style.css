@@ -1,0 +1,118 @@
+  form {
+    margin-bottom: 30px;
+  }
+
+  button[type="submit"],
+  button {
+    padding: 12px 18px;
+    background-color: #0a4bc2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  button[type="submit"]:hover,
+  button:hover {
+    background-color: #0385a5;
+  }
+
+  #app div {
+    margin-bottom: 50px;
+  }
+
+  #app div h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #057bca;
+    border-radius: 7px;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+
+  li span {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #036ec5;
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  progress {
+    width: 60%;
+    margin: 30px auto;
+    display: block;
+  }
+
+  canvas {
+    border: 1px solid #039cca;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000000;
+    text-shadow: 2px 2px #fff;
+  }
+
+  #chartType {
+    margin-right: 15px;
+    padding: 8px;
+    background-color: #0159be;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  #chartType:hover {
+    background-color: #069cca;
+  }
+
+  #chartType option {
+    background-color: #fff;
+    color: #0271cc;
+  }
+
+  #chartType option:checked {
+    background-color: #05adca;
+    color: #fff;
+  }
